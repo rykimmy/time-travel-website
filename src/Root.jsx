@@ -20,11 +20,11 @@ export default function Root() {
                             <Link to="/block">
                                 <p className="navBar">Block Theory</p>
                             </Link>
-                            <Link to="/growing-block">
-                                <p className="navBar">Growing Block</p>
-                            </Link>
                             <Link to="/moving-spotlight">
                                 <p className="navBar">Moving Spotlight</p>
+                            </Link>
+                            <Link to="/growing-block">
+                                <p className="navBar">Growing Block</p>
                             </Link>
                         </div>
                     </div>
