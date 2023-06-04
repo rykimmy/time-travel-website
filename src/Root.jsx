@@ -1,7 +1,13 @@
 import { Link, Outlet } from 'react-router-dom';
+import { useLayoutEffect } from 'react';
 import './styles.css';
 
 export default function Root() {
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
+
     return (
         <div>
             <header>
@@ -9,6 +15,10 @@ export default function Root() {
                 <nav>
                     <Link to="/">
                         <p className="navBar">Home</p>
+                    </Link>
+
+                    <Link to="/background">
+                        <p className="navBar">Background Information</p>
                     </Link>
 
                     <div className="dropdown">

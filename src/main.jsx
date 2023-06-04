@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import Root from './Root.jsx';
+import Background from './components/Background.jsx';
 import Presentism from './components/Presentism.jsx';
 import Block from './components/Block.jsx';
 import GrowingBlock from './components/GrowingBlock.jsx';
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <App />,
+      },
+      {
+        path: "background",
+        element: <Background />,
       },
       {
         path: "presentism",

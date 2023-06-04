@@ -1,3 +1,10 @@
+/* 
+COLORS
+- Off-white: #f9f9f9 (lighter)
+- Off-white: #f1f0ed (darker)
+- Blue: rgb(24, 24, 115)
+*/
+
 header {
     display: flex;
     flex-direction: row;
@@ -79,7 +86,10 @@ nav {
 .dropContent {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+
+    /* background-color: #f9f9f9; */
+    background-color: #f1f0ed;
+
     min-width: 4vw;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -174,8 +184,8 @@ a {
 /* ///////////////////////////////// */
 
 #aboutContainer {
-    padding-top: 30vh;
-    padding-bottom: 30vh;
+    padding-top: 25vh;
+    padding-bottom: 25vh;
 
     text-align: center;
 }
@@ -188,6 +198,40 @@ a {
 .aboutDescription {
     font-size: 1.2em;
     font-weight: 100;
+
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.backgroundInfoLink {
+    color: black;
+
+    font-size: 1.1em;
+    font-weight: 400;
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    border: 2px solid;
+
+    width: 100px;
+
+    transition: all 0.5s ease-in-out;
+}
+
+.backgroundInfoLink:hover {
+    /* background-color: rgb(24, 24, 115);
+    border-color: rgb(24, 24, 115); */
+    background-color: black;
+    border-color: black;
+    color: #f1f0ed;
 }
 
 /* ///////////////////////////////// */
@@ -198,17 +242,40 @@ a {
     background-color: rgb(24, 24, 115);
     color: #f1f0ed;
 
-    padding-bottom: 20vh;
+    padding-bottom: 10vh;
+
+    text-align: center;
 }
 
 .infoTitle {
     text-align: center;
 
     padding-top: 10vh;
-    padding-bottom: 5vh;
 
     font-size: 3em;
     font-weight: 300;
+}
+
+.infoContent {
+    font-size: 1.2em;
+    font-weight: 100;
+
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+    margin-bottom: 10vh;
+}
+
+.slideItem {
+    background-color: rgb(40, 40, 40);
+
+    margin-left: 13vw;
+    margin-right: 13vw;
+
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+
+    border-radius: 20px;
 }
 
 .infoSub {
@@ -219,8 +286,8 @@ a {
 }
 
 .infoDescription {
-    margin-left: 18vw;
-    margin-right: 18vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 
     font-size: 1.5em;
     font-weight: 100;
@@ -257,11 +324,17 @@ a {
     box-shadow: inset 200px 0 0 0 #f1f0ed;
 }
 
+/* ///////////////////////////////// */
+/* ////////// TIME TRAVEL ////////// */
+/* ///////////////////////////////// */
+
 .ttContainer {
     background-color: #f1f0ed;
     color: black;
 
     padding-bottom: 20vh;
+
+    text-align: center;
 }
 
 .ttTitle {
@@ -309,4 +382,78 @@ a {
     background-color: rgb(24, 24, 115);
     border-color: rgb(24, 24, 115);
     color: #f1f0ed;
+}
+
+/* ///////////////////////////////// */
+/* /////////// BACKGROUND ////////// */
+/* ///////////////////////////////// */
+
+.centeredTitleB {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+    font-size: 5em;
+    font-weight: 200;
+    /* word-wrap:break-word; */
+
+    text-align: center;
+}
+
+.backgroundContainer {
+    margin-top: 15vh;
+    /* padding-bottom: 15vh; */
+}
+
+.backgroundItem {
+    padding-bottom: 7vh;
+}
+
+.backgroundTitle {
+    font-size: 3em;
+    font-weight: 200;
+
+    text-align: center;
+}
+
+.backgroundDescription {
+    font-size: 1.2em;
+    font-weight: 100;
+
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.backgroundPhoto {
+    display: block;
+
+    max-width: 50vw;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+    border: 2px solid;
+}
+
+.premiseContainer {
+    /* display: inline-block; */
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 50%;
+
+    /* border: 2px solid; */
+}
+
+.premise {
+    font-size: 1.2em;
+    font-weight: 100;
+
+    /* max-width: auto; */
 }
