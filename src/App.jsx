@@ -2,7 +2,7 @@ import { useState, useLayoutEffect } from 'react';
 import { Slide } from 'react-slideshow-image';
 import { Link, Outlet } from 'react-router-dom';
 import { Link as SlideLink } from 'react-scroll';
-import cover from '../tthome2.jpeg';
+import cover from '../homecover.jpeg';
 import './styles.css';
 import 'react-slideshow-image/dist/styles.css';
 

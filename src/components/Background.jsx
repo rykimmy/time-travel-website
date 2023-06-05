@@ -1,5 +1,5 @@
 import { useLayoutEffect } from 'react';
-import cover from '../../tthome.jpeg';
+import cover from '../../tthome2.jpeg';
 import nst from '../../nst.jpg';
 import worldline from '../../worldline.jpg';
 import bevel from '../../bevel.jpg';
