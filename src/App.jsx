@@ -60,7 +60,7 @@ function App() {
 
               <div className="each-slide-effect slideItem">
                 <h3 className="infoSub">The Moving Spotlight</h3>
-                <p className="infoDescription">The moving spotlight also envisions reality as a block of spacetime. Contrary to the block theory, however, the moving spotlight believes in the existence of the absolute present, which acts as a marker of time within the block. Thus, all past, present, and future things exist, and the absolute present demarcates between these zones.</p>
+                <p className="infoDescription">The moving spotlight also envisions reality as a block of spacetime. Contrary to the block theory, however, the moving spotlight believes in the existence of the absolute present, which acts as a marker of time within the block. The absolute present accounts for experiencing the passage of time. All past, present, and future things exist, and the absolute present demarcates between these zones.</p>
                 <Link to="/moving-spotlight">
                   <p className="linkButton">Read more</p>
                 </Link>
@@ -68,7 +68,7 @@ function App() {
 
               <div className="each-slide-effect slideItem">
                 <h3 className="infoSub">The Growing Block</h3>
-                <p className="infoDescription">The growing block theory also envisions reality as a block of spacetime. However, where the block theory sees the block encapsulating everything––past, present, and future––the growing block instead only includes the past and present. Thus, only past and present things exist. As time passes, the block grows as more things happen. This view includes an absolute present.</p>
+                <p className="infoDescription">The growing block theory also envisions reality as a block of spacetime. However, where the block theory sees the block encapsulating everything––past, present, and future––the growing block instead only includes the past and present. Thus, only past and present things exist. As time passes, the block grows as more things happen. This view includes an absolute present, which similar to the moving spotlight, accounts for the passage of time.</p>
                 <Link to="/growing-block">
                   <p className="linkButton">Read more</p>
                 </Link>
@@ -78,7 +78,7 @@ function App() {
 
           <div className="ttContainer">
             <h2 className="ttTitle">Time Travel</h2>
-            <p className="ttDescription">Time travel is a phenomenon long speculated by physicists, philosophers, science-fiction authors, and movie directors. While widely seen as fictional and impossible, the ability to time travel actually aligns with our best known physical laws and theories. Despite our lack of a time traveling machine––making it technologically impossible––it does remain logically possible.</p>
+            <p className="ttDescription">Time travel is a phenomenon long speculated by physicists, philosophers, science-fiction authors, and movie directors. While widely seen as fictional and impossible, the ability to time travel actually aligns with our best known physical laws and theories. Despite our lack of a time traveling machine––making it technologically impossible––its logical possibility remains up for discussion.</p>
             <Link to="/time-travel">
               <p className="ttLink">Read more</p>
             </Link>
